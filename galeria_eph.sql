@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-05-2020 a las 23:30:28
+-- Tiempo de generación: 20-05-2020 a las 23:39:16
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.1
 
@@ -40,7 +40,9 @@ CREATE TABLE `fotos` (
 --
 
 INSERT INTO `fotos` (`id`, `titulo`, `imagen`, `texto`) VALUES
-(0, 'Metro', '7.jpg', 'Metro Vacio');
+(0, 'Metro', '7.jpg', 'Metro Vacio'),
+(0, 'Perrito', 'amber-mayo-pszOjTQ4KtM-unsplash.jpg', 'Perrito con cubrebocas'),
+(0, 'Cubrebocas Silla', 'roger-bradshaw-k8gJTEkqdvA-unsplash.jpg', 'Cubreboocas en una silla');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
