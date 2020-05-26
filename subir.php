@@ -2,7 +2,7 @@
     require 'views/subir.view.php';
     require 'funciones.php';
 
-    $conexion = conexion('galeria_eph', 'root', '');
+    $conexion = conexion('galeria_gnhh', 'root', '');
 
     if (!$conexion) {
         die();

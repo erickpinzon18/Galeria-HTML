@@ -9,20 +9,26 @@
 <body>
     <header>
         <div class="contenedor">
-            <h1 class="titulo">Foto: 1.jpg</h1>
+            <h1 class="titulo">Foto: <?php 
+                if (!empty($foto['titulo'])) {
+                    echo $foto['titulo'];
+                } else {
+                    echo $foto['imagen'];
+                    } ?>
+            </h1>
         </div>
     </header>
 
     <div class="contenedor">
         <div class="foto">
-            <img src="fotos/1.jpg" alt="">
-            <p> Descripcion de esta imagen 1.jpg</p>
+            <img src="fotos/<?php echo $foto['imagen']; ?>" alt="">
+            <p class="texto"><?php echo $foto['texto']; ?></p>
             <a href="index.php" class="regresar"> Regregar</a>
         </div>
     </div>
     
     <footer>
-        <p class="copyright">Galeria creada por Fulanito de Tal</p>
+        <p class="copyright">Galeria creada por Pinzon Huerta Erick / Algalan Murillo Diego Alexis</p>
     </footer>
 </body>
 </html>
