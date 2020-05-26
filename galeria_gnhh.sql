@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-05-2020 a las 21:35:43
+-- Tiempo de generación: 26-05-2020 a las 21:44:23
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.1
 
@@ -49,7 +49,8 @@ INSERT INTO `fotos` (`id`, `titulo`, `imagen`, `texto`) VALUES
 (11, 'SILLA', 'CORONA.jpg', 'Silla con cubrebocas que demuestra que los cubrebocas son indispensables  y se usan en todos lados'),
 (12, 'CINE', 'CUBREBOCAS.jpg', 'Cine solo, sin ningun cliente ya que estan cerrados'),
 (13, 'NETFLIX', 'ONLINE.jpg', 'Se hizo una plataforma muy usada ya que estamos sin nada que hacer en casa'),
-(14, 'METRO', 'COV.jpg', 'Metro vacio, sin ninguna persona adentro');
+(14, 'METRO', 'COV.jpg', 'Metro vacio, sin ninguna persona adentro'),
+(15, 'REGRESO', 'jason-mowry-Uqh22qf2v3A-unsplash.jpg', 'Letrero abriendo sus puertas nuevamente');
 
 --
 -- Índices para tablas volcadas
@@ -69,7 +70,7 @@ ALTER TABLE `fotos`
 -- AUTO_INCREMENT de la tabla `fotos`
 --
 ALTER TABLE `fotos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
