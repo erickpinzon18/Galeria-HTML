@@ -1,3 +1,91 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #e6e6e6;
+}
+header, .main, footer {
+    width: 90%;
+    max-width: 1000px;
+    margin:20px;
+}
+header nav{
+background: #528fd5;
+overflow: hidden;
+}
+header nav ul{
+list-style:none;
+}
+header nav ul li{
+float: left;
+} 
+header nav ul li a{
+padding: 10px 20px;
+display: block;
+color: rgb(255, 255, 255);
+text-decoration: none;
+
+} 
+header nav ul li a:hover{
+
+background:  #75acec;
+} 
+.main .articles{
+width: 68.5%;
+margin-right: 1.5%;
+float: left;
+
+}
+
+.main .articles article{
+padding: 20px;
+margin-bottom: 20px;
+background: rgb(138, 176, 187);
+}
+
+aside {
+width: 30%;
+background: #264553;
+float: left;
+padding: 20px;
+box-sizing: border-box;
+}
+
+aside img {
+    width:250px;
+}
+
+footer p{
+background: rgb(33, 58, 105);
+color: #fff;
+clear: both;
+padding: 10px opx;
+text-align: center;
+}
+
+/* para el manejo de texto tipografia presentacion */
+h2, h3 {
+font-weight: normal;
+text-align: justify;
+background: #ccc;
+text-transform: capitalize;
+}
+p {
+font-family: Sans-serif,Helvetica,Arial;
+margin-top: 20px;
+font-size: 12px;
+font-weight: normal;
+text-align: justify;
+line-height: 20px;
+text-decoration: none;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-shadow: 1px 1px 1px #000;
+
+}  
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,7 +97,7 @@
 body {
 	font-size: 16px;
 	font-family: "Times New Roman", Georgia, serif;
-	background: #234a3c;
+	background: #87bbb8;
 	color:#fff;
 }
 
@@ -127,7 +215,7 @@ header {
 
 footer .copyright {
 	text-align: center;
-	color:rgba(255,255,255,.5);
+	color:rgb(255, 255, 255);
 	font-size: 16px;
 	padding: 15px 0;
 }
@@ -225,4 +313,35 @@ footer .copyright {
 
 .formulario .submit:hover {
 	border:1px solid rgba(255,255,255,1);
+}
+
+header {
+	width: 50%;
+	max-width: 10000px;
+	margin: 20px;
+}
+
+/* Se establece el color de fondo de la cabecera y se posiciona para que sea visible*/
+header nav {
+	background: #528fd5;
+	overflow: hidden;
+}
+/*Se pondria un estilo de lista*/
+header nav ul {
+	list-style: none;
+}
+/*Se posiciona la lista horizontalmente en lugar de vertical*/
+header nav ul li {
+	float: left;
+}
+/* Se agrega un margen de 10 px y se agreaga unos bloques de separacion, se le da color a las letras y se decora el texto con un lineado*/
+header nav ul li a {
+	padding: 10px 20px;
+	display: block;
+	color: #Eff;
+	text-decoration: underline;
+}
+/*Se agrega un fondo al hover*/
+header nav ul li a:hover {
+	background: #75ACEC;
 }

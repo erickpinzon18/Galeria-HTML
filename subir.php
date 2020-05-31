@@ -6,7 +6,7 @@
 
     if (!$conexion) {
         die();
-     }
+    }
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_FILES)) {
         $check = @getimagesize($_FILES['foto']['tmp_name']);
