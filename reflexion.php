@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Mi sitio Web </title>
+	<title> Reflexion </title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>

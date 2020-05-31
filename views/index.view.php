@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/estilos.css">
-	<title>Proyecto De CSS Galería Hernández Salvador</title>
+	<title>Galeria</title>
 </head>
 <body>
 	<center>    

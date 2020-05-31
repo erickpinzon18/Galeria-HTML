@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Galeria</title>
+    <title>Ver Foto</title>
 </head>
 <body>
     <center>    
